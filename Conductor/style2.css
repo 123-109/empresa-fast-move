@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	background-image:url(img/int.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 130px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 100px;
+}
+.navbar ul li{
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgb(68, 16, 142);
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: black;
+	font-size: 35px;
+	width: 400px;
+	margin-top: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center h2{
+	color: black;
+	font-size: 35px;
+	width: 400px;
+	margin-top: 10;
+	margin: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.center .personal{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	width: 230px;
+	height: 230px;
+	float: left;
+}
+
+.center .moto{
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 260px;
+	height: 260px;
+}
+
+.center li{
+	text-align: left;
+	font-size: 23px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 9cm;
+	color: black;
+	font-weight: bold;
+
+}
+.buttons {
+	left: 900pc;
+	width: 600px;
+	height: auto;
+	padding: 20px 100px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000000;
+	background: #0174DF;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #190707;
+	border-radius: 25px;
+	transition: .4s;
+	margin-top: 1cm;
+	margin-left: 2cm;
+}
+.buttons .btn2{
+	margin-left: 25px;
+
+}
+.buttons button:hover{
+	background: #A9F5F2;
+}
+.btn{
+	background-color:#3436bd;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
